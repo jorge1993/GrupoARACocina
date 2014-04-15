@@ -5,7 +5,7 @@ using System.Web;
 
 namespace WebPrueba
 {
-    public class Recipe
+    public class RecipeCAD
     {
         
     }

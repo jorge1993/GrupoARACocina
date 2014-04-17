@@ -14,7 +14,7 @@ namespace WebPrueba
 
 
         //Function to add a new book
-        public void insertBook(BookEN book)
+        public void insertBook(BooksEN book)
         {
         }
 

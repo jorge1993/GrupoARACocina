@@ -18,7 +18,7 @@ namespace WebPrueba
         }
 
         //Constructor only with the title (PK)
-        public BooksEN(String t)
+        public BooksEN(string t)
         {
             title = t;
             author = "";
@@ -28,7 +28,7 @@ namespace WebPrueba
         }
 
         //Ctor with all the attributes
-        public BooksEN(String t, String a, String i, int p, string d)
+        public BooksEN(string t, string a, string i, int p, string d)
         {
             title = t;
             author = a;
@@ -53,28 +53,28 @@ namespace WebPrueba
         }
 
         // Getter/Setter of title
-        public String Title
+        public string Title
         {
             get { return title; }
             set { title = value; }
         }
 
         // Getter/Setter of author
-        public String Author
+        public string Author
         {
             get { return author; }
             set { author = value; }
         }
 
         // Getter/Setter of isbn
-        public String Isbn
+        public string Isbn
         {
             get { return isbn; }
             set { isbn = value; }
         }
 
         // Getter/Setter of date
-        public String Date
+        public string Date
         {
             get { return date; }
             set { date = value; }
@@ -83,11 +83,11 @@ namespace WebPrueba
         /***********/
         /** DATOS **/
         /***********/
-        private String title;
-        private String author;
-        private String isbn;
+        private string title;
+        private string author;
+        private string isbn;
         private int price;
-        private String date;
+        private string date;
 
         private BooksCAD booksCAD;
     }

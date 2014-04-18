@@ -1,5 +1,0 @@
-\\psf\Home\Documents\Universidad\2º Curso\Herramientas Avanzadas para el Desarrollo de Aplicaciones\Practica\GrupoARACocina\WebPrueba\WebPrueba\bin\WebPrueba.dll
-\\psf\Home\Documents\Universidad\2º Curso\Herramientas Avanzadas para el Desarrollo de Aplicaciones\Practica\GrupoARACocina\WebPrueba\WebPrueba\bin\WebPrueba.pdb
-\\psf\Home\Documents\Universidad\2º Curso\Herramientas Avanzadas para el Desarrollo de Aplicaciones\Practica\GrupoARACocina\WebPrueba\WebPrueba\obj\Debug\ResolveAssemblyReference.cache
-\\psf\Home\Documents\Universidad\2º Curso\Herramientas Avanzadas para el Desarrollo de Aplicaciones\Practica\GrupoARACocina\WebPrueba\WebPrueba\obj\Debug\WebPrueba.dll
-\\psf\Home\Documents\Universidad\2º Curso\Herramientas Avanzadas para el Desarrollo de Aplicaciones\Practica\GrupoARACocina\WebPrueba\WebPrueba\obj\Debug\WebPrueba.pdb

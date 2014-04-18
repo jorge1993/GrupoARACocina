@@ -15,6 +15,49 @@ namespace WebPrueba
         private string video;
         private string origin;
         private string difficulty;
+        private User user;
+        private BooksEN book;
+        private Utensilis utensilis;
+        private Dictionary<Ingredients, int> ingredients;
+        private Dictionary<Comments, User> comments;
+        private Dictionary<User, int> puntuations;
+
+
+        public User User
+        {
+            get { return user; }
+            set { user = value; }
+        }
+
+        public BooksEn Books
+        {
+            get { return book; }
+            set { book = value; }
+        }
+
+        public Utensilis Utensilis
+        {
+            get { return utensilis; }
+            set { utensilis = value; }
+        }
+
+        public Dictionary<Ingredients, int> Ingredients
+        {
+            get { return ingredients; }
+            set { ingredients = value; }
+        }
+
+        public Dictionary<Comments, User> Comments
+        {
+            get { return comments; }
+            set { comments = value; }
+        }
+
+        public Dictionary<User, int> Puntuations
+        {
+            get { return puntuations; }
+            set { puntuations = value; }
+        }
 
         public long Id
         {

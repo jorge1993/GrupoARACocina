@@ -1,0 +1,9 @@
+\\psf\Home\Desktop\WebApp\WebApp.Tests\bin\Release\Content\fake1.jpg
+\\psf\Home\Desktop\WebApp\WebApp.Tests\bin\Release\WebApp.Tests.dll.config
+\\psf\Home\Desktop\WebApp\WebApp.Tests\bin\Release\WebApp.Tests.dll
+\\psf\Home\Desktop\WebApp\WebApp.Tests\bin\Release\WebApp.Tests.pdb
+\\psf\Home\Desktop\WebApp\WebApp.Tests\bin\Release\WebApp.dll
+\\psf\Home\Desktop\WebApp\WebApp.Tests\bin\Release\WebApp.pdb
+\\psf\Home\Desktop\WebApp\WebApp.Tests\obj\Release\ResolveAssemblyReference.cache
+\\psf\Home\Desktop\WebApp\WebApp.Tests\obj\Release\WebApp.Tests.dll
+\\psf\Home\Desktop\WebApp\WebApp.Tests\obj\Release\WebApp.Tests.pdb

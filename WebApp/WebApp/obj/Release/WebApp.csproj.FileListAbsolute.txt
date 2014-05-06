@@ -1,0 +1,6 @@
+\\psf\Home\Desktop\WebApp\WebApp\bin\Content\fake1.jpg
+\\psf\Home\Desktop\WebApp\WebApp\bin\WebApp.dll
+\\psf\Home\Desktop\WebApp\WebApp\bin\WebApp.pdb
+\\psf\Home\Desktop\WebApp\WebApp\obj\Release\ResolveAssemblyReference.cache
+\\psf\Home\Desktop\WebApp\WebApp\obj\Release\WebApp.dll
+\\psf\Home\Desktop\WebApp\WebApp\obj\Release\WebApp.pdb

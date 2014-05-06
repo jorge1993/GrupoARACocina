@@ -1,0 +1,8 @@
+\\psf\Home\Desktop\WebApp\WebApp.Tests\bin\Debug\WebApp.Tests.dll.config
+\\psf\Home\Desktop\WebApp\WebApp.Tests\bin\Debug\WebApp.Tests.dll
+\\psf\Home\Desktop\WebApp\WebApp.Tests\bin\Debug\WebApp.Tests.pdb
+\\psf\Home\Desktop\WebApp\WebApp.Tests\bin\Debug\WebApp.dll
+\\psf\Home\Desktop\WebApp\WebApp.Tests\bin\Debug\WebApp.pdb
+\\psf\Home\Desktop\WebApp\WebApp.Tests\obj\Debug\ResolveAssemblyReference.cache
+\\psf\Home\Desktop\WebApp\WebApp.Tests\obj\Debug\WebApp.Tests.dll
+\\psf\Home\Desktop\WebApp\WebApp.Tests\obj\Debug\WebApp.Tests.pdb

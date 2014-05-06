@@ -8,7 +8,7 @@
 
     <h2>Usuario - Norverto Machine</h2>
     <hr />
-    <table class=table2>
+    <table class="table2" style="width: 90%">
         <tr>
             <td>Recipe's name
             </td>

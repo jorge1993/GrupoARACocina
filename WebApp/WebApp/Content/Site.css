@@ -111,8 +111,8 @@ h5, h6
 
 .select
 {
-    height: 100px;
-    width: 250px;
+    height: 34px;
+    width: 234px;
     font-size: x-large;
     font-family: 'comic Sans MS';
 }
@@ -150,9 +150,9 @@ h5, h6
 
 .textboxSearch
 {
-    width:100px;
-    height:250px;
-    font-size: x-large;
+    width:250px;
+    height:100px;
+    font-size: large;
     font-family: 'comic Sans MS';
     vertical-align: middle;
 }
@@ -189,7 +189,6 @@ ancho de página. O bien puede especificar un ancho de píxel exacto. */
     border-style: none;
     border-color: inherit;
     border-width: medium;
-    /*background: url = ("/Content/ImagesSystem/logo1.jpg");*/
     background-image: url('/Content/ImagesSystem/logo1.jpg');
     font-weight: bold;
     padding: 5px 0;

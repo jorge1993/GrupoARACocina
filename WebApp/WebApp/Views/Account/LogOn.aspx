@@ -38,7 +38,7 @@
                 </div>
                 
                 <p>
-                    <input type="submit" value="Log in" />
+                    <input type="submit" value="Log in" class="button" />
                 </p>
             </fieldset>
         </div>

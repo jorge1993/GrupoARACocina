@@ -17,7 +17,7 @@
     <p><table class="table2">
             <tr>
                 <td>
-        <img alt="" src="../../Content/ImagesRecipes/1.jpg" class="table2" /></td>
+                <img alt="" src="../../Content/ImagesRecipes/1.jpg" class="table2" /></td>
                 <td class="textIngredients">
                     Ingredients:<br />
                     1 cheese terrine (Philadelphia)
@@ -98,6 +98,10 @@
             <br />
             <asp:TextBox ID="TextBox1" runat="server" CssClass="text-box multi-line" 
                 TextMode="MultiLine" Width="458px"></asp:TextBox>
+
+            <br />
+            <br />
+            <asp:Button ID="Button1" runat="server" CssClass="button" Text="Publish" />
 
         </td></tr>
     </table>

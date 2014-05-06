@@ -44,7 +44,8 @@
                 </div>
                 
                 <p>
-                    <input type="submit" value="Change password" />
+                    <input type="submit" value="Change password" class="button" 
+                        style="width: 140px" />
                 </p>
             </fieldset>
         </div>

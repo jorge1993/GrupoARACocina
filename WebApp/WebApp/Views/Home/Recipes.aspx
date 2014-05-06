@@ -2,6 +2,25 @@
 
 <script runat="server">
 
+protected void  ImageButton1_Click(object sender, ImageClickEventArgs e)
+{      
+    Response.Redirect("../../Views/Home/Recipe.aspx");
+}
+
+protected void ImageButton2_Click(object sender, EventArgs e)
+{
+    Response.Redirect("Recipe.aspx");
+}
+
+protected void ImageButton3_Click(object sender, ImageClickEventArgs e)
+{
+    Response.Redirect("Recipe.aspx");
+}
+    
+    
+    
+    
+    
 </script>
 <asp:Content ID="aboutTitle" ContentPlaceHolderID="TitleContent" runat="server">
    Recipes
@@ -14,8 +33,10 @@
       Here are the best food recipes!
     </p>
     <asp:Panel ID="Panel1" runat="server" HorizontalAlign="Right">
-    <asp:TextBox ID="TextBox1" runat="server" CssClass="textboxSearch"></asp:TextBox>
-    <select id="Select1" name="Select1" class="select" >
+    <asp:TextBox ID="TextBox1" runat="server" CssClass="textboxSearch" 
+            Font-Size="Medium" Height="31px"></asp:TextBox>
+    <select id="Select1" name="Select1" class="select" 
+            style="width: 240px; height: 31px; font-size: medium; font-family: 'Comic Sans MS';" >
         <option>Search by...</option>
         <option>Name</option>
         <option>Auth</option>
@@ -30,13 +51,20 @@
     <table class="table">
         <tr>
             <td>
-                <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl ="../../Content/ImagesRecipes/1.jpg"/><br /><%= Html.ActionLink("Raspberry Cake", "Recipe", "Home")%>
+                <asp:ImageButton ID="ImageButton1" runat="server" 
+                    ImageUrl ="../../Content/ImagesRecipes/1.jpg" 
+                    onclick="ImageButton1_Click" />
+                    <br /><%= Html.ActionLink("Raspberry Cake", "Recipe", "Home")%>
                 </td>
             <td>
-                <asp:ImageButton ID="ImageButton2" runat="server" ImageUrl ="../../Content/ImagesRecipes/2.jpg"/><br /><%= Html.ActionLink("Strawberry Cake", "Recipe", "Home")%>
+                <asp:ImageButton ID="ImageButton2" runat="server" 
+                ImageUrl ="../../Content/ImagesRecipes/2.jpg"/><br />
+                <%= Html.ActionLink("Strawberry Cake", "Recipe", "Home")%>
                 </td>
             <td>
-                 <asp:ImageButton ID="ImageButton3" runat="server" ImageUrl ="../../Content/ImagesRecipes/3.jpg"/><br /><%= Html.ActionLink("Strawverry Cake with Milk", "Recipe", "Home")%>
+                 <asp:ImageButton ID="ImageButton3" runat="server" 
+                 ImageUrl ="../../Content/ImagesRecipes/3.jpg" onclick="ImageButton3_Click"/><br />
+                 <%= Html.ActionLink("Strawverry Cake with Milk", "Recipe", "Home")%>
                 </td>
         </tr>
     </table>

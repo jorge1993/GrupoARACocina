@@ -40,7 +40,6 @@
                     <li><%= Html.ActionLink("Contact", "Contact", "Home")%></li>
                     <li><%= Html.ActionLink("About us", "About", "Home")%></li>
                 </ul>
-            
             </div>
         </div>
 

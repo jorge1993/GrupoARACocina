@@ -139,6 +139,15 @@ h5, h6
     float: none;
 }
 
+.textboxDescription
+{
+    font-family: 'comic Sans MS';
+    font-size: large;
+    text-align: left;
+    width: 50%;
+    height: 100px;
+}
+
 .textboxSearch
 {
     width:100px;
@@ -288,7 +297,6 @@ legend
 
 input[type="text"] 
 {
-    width: 200px;
     border: 1px solid #CCC;
 }
 
@@ -424,7 +432,7 @@ div#title
 .text-box.multi-line
 {
     height: 6.5em;
-    font-family: 'comic Sans MS';
+    font-family: 'Comic Sans MS';
 }
 
 .tri-state

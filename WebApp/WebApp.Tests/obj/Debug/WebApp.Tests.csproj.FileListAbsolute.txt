@@ -6,3 +6,4 @@
 \\psf\Home\Desktop\WebApp\WebApp.Tests\obj\Debug\ResolveAssemblyReference.cache
 \\psf\Home\Desktop\WebApp\WebApp.Tests\obj\Debug\WebApp.Tests.dll
 \\psf\Home\Desktop\WebApp\WebApp.Tests\obj\Debug\WebApp.Tests.pdb
+\\psf\Home\Desktop\WebApp\WebApp.Tests\bin\Debug\Content\fake1.jpg

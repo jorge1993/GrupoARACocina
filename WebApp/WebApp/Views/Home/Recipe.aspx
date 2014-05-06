@@ -89,7 +89,20 @@
         
         Origin:<br />
         <img alt="" src="../../Content/fake1.jpg" /></p>
+        <hr />
     <p><h3>Comments</h3></p>
+    <table class="table2">
+        <tr><td>
+
+            Write your own comment:<br />
+            <br />
+            <asp:TextBox ID="TextBox1" runat="server" CssClass="text-box multi-line" 
+                TextMode="MultiLine" Width="458px"></asp:TextBox>
+
+        </td></tr>
+    </table>
+
+    <br />
     <table class="table2">
         <tr>
             <td><%= Html.ActionLink("Antonia Machine", "Users", "Account")%><br />

@@ -13,3 +13,4 @@ C:\Users\LUIS\Desktop\WebApp2\WebApp\WebApp\obj\Debug\WebApp.pdb
 \\psf\Home\Desktop\WebApp\WebApp\obj\Debug\ResolveAssemblyReference.cache
 \\psf\Home\Desktop\WebApp\WebApp\obj\Debug\WebApp.dll
 \\psf\Home\Desktop\WebApp\WebApp\obj\Debug\WebApp.pdb
+\\psf\Home\Desktop\WebApp\WebApp\bin\Content\fake1.jpg

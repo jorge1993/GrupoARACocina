@@ -2,10 +2,11 @@
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
+<head id="Head1" runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title><asp:ContentPlaceHolder ID="TitleContent" runat="server" /></title>
     <link href="../../Content/Site.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="~/Content/ImagesFondo/icono.ico">
     <style type="text/css">
         .style1
         {
@@ -23,24 +24,52 @@
     <div class="page" >
         <div id="header">
             <div id="title" class="style2" style="width: 150px; height: 60px">
-               <h1 class="style1">&nbsp;</h1>
+                <h1 class="style1">
+                    &nbsp;</h1>
             </div>
               
             <div id="logindisplay">
                 <% Html.RenderPartial("LogOnUserControl"); %>
             </div> 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             
-            <div id="menucontainer">
+            <div id="google_translate_element">
             
+            <script type="text/javascript">
+            //<![CDATA[
+                function googleTranslateElementInit() {
+                    new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+                }
+            //]]>
+            </script> <script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" type="text/javascript">
+            </script>
+            </div>
+             
+             <div><a href="http://instagram.com/cgmora12" target="_blank"><img alt="Siguenos en Blogger" src="https://lh3.googleusercontent.com/-D-erW-8vZFo/UIqE3H6oUuI/AAAAAAAABgE/4kh346Lwaxk/s48/instagram48.png" width=48 height=48  /></a>
+             <a href="http://twitter.com/cgmora12" target="_blank"><img src="https://lh6.googleusercontent.com/-vao9pzZoGtk/T6VYC4d1YMI/AAAAAAAAA0U/4rdP2chJido/s48/twitter48.png" width=48 height=48 alt="Síguenos en Twitter" /></a>
+             <a href="http://www.facebook.com/cesar.gonzalezmora.1?ref=tn_tnmn" target="_blank"><img alt="Siguenos en Facebook" src="https://lh3.googleusercontent.com/-NSLbC_ztNls/T6VX0g6z8AI/AAAAAAAAA0A/_vyIBrmZbuY/s48/facebook48.png" width=48 height=48  /></a>
+             <a href="http://www.pinterest.com/cgmora12" target="_blank"><img alt="Siguenos en Pinterest" src="https://lh3.googleusercontent.com/-VL5WSnUKa9k/T73l-VAgt8I/AAAAAAAAA5k/EUxxhbV2P7s/s48/pinterest48.png" width=48 height=48  /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 
+             <a href="http://www.relojesflash.com" title="relojes web">
+             <embed style="" src="http://www.relojesflash.com/swf/clock117.swf"  wmode="transparent" 
+             type="application/x-shockwave-flash" height="100" width="100"></a></div>
+           
+
+         
+            <!-- <table border="0"><tr><td><a href="http://www.relojesflash.com" title="relojes web"><param name=wmode value=transparent></embed></a></td></tr><tr><td align="center">
+                &nbsp;</td></tr></table> -->
+
                 <ul id="menu">              
                     <li><%= Html.ActionLink("Home", "Index", "Home")%></li>
                     <li><%= Html.ActionLink("Recipes", "Recipes", "Home")%></li>
-                    <li><%= Html.ActionLink("Books", "Books", "Home")%></li>
+                    <li><%= Html.ActionLink("Store", "Store", "Home")%></li>
                     <li><%= Html.ActionLink("Upload Recipe", "Upload", "Home") %></li>
                     <li><%= Html.ActionLink("Contact", "Contact", "Home")%></li>
                     <li><%= Html.ActionLink("About us", "About", "Home")%></li>
                 </ul>
+            
             </div>
+             
         </div>
 
         <div id="main">
@@ -48,7 +77,24 @@
 
             <div id="footer">
             </div>
+
         </div>
-    </div>
+        
+                
+                  
+            <script type="text/javascript">
+                window.$zopim || (function (d, s) {
+                    var z = $zopim = function (c) { z._.push(c) }, $ = z.s =
+            d.createElement(s), e = d.getElementsByTagName(s)[0]; z.set = function (o) {
+                z.set.
+            _.push(o)
+            }; z._ = []; z.set._ = []; $.async = !0; $.setAttribute('charset', 'utf-8');
+                    $.src = '//v2.zopim.com/?26K38RWHKEV8JRxVxEMM0wJP3OTte4v4'; z.t = +new Date; $.
+            type = 'text/javascript'; e.parentNode.insertBefore($, e)
+                })(document, 'script');
+            </script>
+           
+
+           &nbsp;</div>
 </body>
 </html>

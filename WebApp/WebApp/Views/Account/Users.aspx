@@ -28,7 +28,7 @@
             </td>
         </tr>
         <tr>
-            <td><%= Html.ActionLink("Strawberry Cake", "Recipe", "Home")%>
+            <td><%= Html.ActionLink("Strawberry Cake", "ChangePassword", "Account")%>
             </td>
             <td>
                 Hard

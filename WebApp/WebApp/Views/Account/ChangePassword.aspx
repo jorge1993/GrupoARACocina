@@ -5,49 +5,35 @@
 </asp:Content>
 
 <asp:Content ID="changePasswordContent" ContentPlaceHolderID="MainContent" runat="server">
+    <form id="form1" runat="server">
     <h2> Change the password</h2>
     <p>
        Please fill the form to change the password 
     </p>
     <p>
         The new password must have a minimum length of <%= ViewData["PasswordLength"] %> characters.
-    </p>
+    </p><br />
+        <table style="width:100%;">
+            <tr>
+                <td style="width: 125px">New Password</td>
+                <td><asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+                    <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" 
+                        ErrorMessage="Password must have alphanumeric values with more than 8 characteres" 
+                        ValidationExpression="(?!^[0-9]*$)(?!^[a-zA-Z]*$)^([a-zA-Z0-9]{8,10})$ "></asp:RegularExpressionValidator>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 125px">Repeat Password</td>
+                <td><asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+                    <asp:CompareValidator ID="CompareValidator1" runat="server" 
+                        ErrorMessage="Password not equal" ></asp:CompareValidator>
+                </td>
+            </tr>
+        </table>
+        <br />
+    <asp:Button ID="Button1" runat="server" Text="Change Password" 
+        CssClass="button" Height="50px" Width="141px" />
+    </form>
 
-    <% using (Html.BeginForm()) { %>
-        <%= Html.ValidationSummary(true, "The password change cannot be done, please correct the errors and try it again.") %>
-        <div>
-            <fieldset>
-                <legend>Account info</legend>
-                
-                <div class="editor-label">
-                    <%= Html.LabelFor(m => m.OldPassword) %>
-                </div>
-                <div class="editor-field">
-                    <%= Html.PasswordFor(m => m.OldPassword) %>
-                    <%= Html.ValidationMessageFor(m => m.OldPassword) %>
-                </div>
-                
-                <div class="editor-label">
-                    <%= Html.LabelFor(m => m.NewPassword) %>
-                </div>
-                <div class="editor-field">
-                    <%= Html.PasswordFor(m => m.NewPassword) %>
-                    <%= Html.ValidationMessageFor(m => m.NewPassword) %>
-                </div>
-                
-                <div class="editor-label">
-                    <%= Html.LabelFor(m => m.ConfirmPassword) %>
-                </div>
-                <div class="editor-field">
-                    <%= Html.PasswordFor(m => m.ConfirmPassword) %>
-                    <%= Html.ValidationMessageFor(m => m.ConfirmPassword) %>
-                </div>
-                
-                <p>
-                    <input type="submit" value="Change password" class="button" 
-                        style="width: 140px" />
-                </p>
-            </fieldset>
-        </div>
-    <% } %>
+    
 </asp:Content>

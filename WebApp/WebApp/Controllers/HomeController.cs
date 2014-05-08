@@ -11,7 +11,7 @@ namespace Web.Controllers
     {
         public ActionResult Index()
         {
-            ViewData["Message"] = "Main Page";
+            ViewData["Message"] = "Home";
 
             return View();
         }
@@ -31,7 +31,7 @@ namespace Web.Controllers
             return View();
         }
 
-        public ActionResult Books()
+        public ActionResult Store()
         {
             return View();
         }

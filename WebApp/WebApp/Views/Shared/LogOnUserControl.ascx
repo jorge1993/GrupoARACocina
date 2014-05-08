@@ -8,7 +8,7 @@
     }
     else {
 %> 
-        [ <%= Html.ActionLink("Log in", "LogOn", "Account") %> ]
+        [ <%= Html.ActionLink("Log in | Register", "LogOn", "Account") %> ]
 <%
     }
 %>

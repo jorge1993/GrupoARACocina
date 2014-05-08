@@ -229,20 +229,7 @@ namespace WebApp.Tests.Controllers
             Assert.AreEqual("The user name or the password are wrong.", controller.ModelState[""].Errors[0].ErrorMessage);
         }
 
-        [TestMethod]
-        public void Register_Get_ReturnsView()
-        {
-            // Disponer
-            AccountController controller = GetAccountController();
-
-            // Actuar
-            ActionResult result = controller.Register();
-
-            // Declarar
-            Assert.IsInstanceOfType(result, typeof(ViewResult));
-            Assert.AreEqual(10, ((ViewResult)result).ViewData["PasswordLength"]);
-        }
-
+        
         [TestMethod]
         public void Register_Post_ReturnsRedirectOnSuccess()
         {

@@ -79,9 +79,8 @@ namespace WebApp.Controllers
         // URL: /Account/Register
         // **************************************
 
-        public ActionResult Register()
+        public ActionResult SignIn()
         {
-            ViewData["PasswordLength"] = MembershipService.MinPasswordLength;
             return View();
         }
 

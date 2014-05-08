@@ -111,8 +111,8 @@ h5, h6
 
 .select
 {
-    height: 34px;
-    width: 234px;
+    height: 27px;
+    width: 250px;
     font-size: x-large;
     font-family: 'comic Sans MS';
 }
@@ -139,20 +139,11 @@ h5, h6
     float: none;
 }
 
-.textboxDescription
-{
-    font-family: 'comic Sans MS';
-    font-size: large;
-    text-align: left;
-    width: 50%;
-    height: 100px;
-}
-
 .textboxSearch
 {
-    width:250px;
-    height:100px;
-    font-size: large;
+    width:100px;
+    height:250px;
+    font-size: x-large;
     font-family: 'comic Sans MS';
     vertical-align: middle;
 }
@@ -186,9 +177,10 @@ ancho de página. O bien puede especificar un ancho de píxel exacto. */
 
 #header h1
 {
-    border-style: none;
+    border-style:dashed;
     border-color: inherit;
     border-width: medium;
+    background: url = ("/Content/ImagesSystem/logo1.jpg");
     background-image: url('/Content/ImagesSystem/logo1.jpg');
     font-weight: bold;
     padding: 5px 0;
@@ -197,7 +189,7 @@ ancho de página. O bien puede especificar un ancho de píxel exacto. */
     line-height: 2em;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 32px !important;
-    height: 55px;
+    height: 53px;
 }
 
 #main
@@ -296,6 +288,7 @@ legend
 
 input[type="text"] 
 {
+    width: 200px;
     border: 1px solid #CCC;
 }
 
@@ -363,24 +356,24 @@ div#title
     display:block;
     text-align:right;
     margin:10px;
-    color:White;
+    color:Blue;
 }
 
 #logindisplay a:link
 {
-    color: white;
+    color: blue;
     text-decoration: underline;
 }
 
 #logindisplay a:visited
 {
-    color: white;
+    color: blue;
     text-decoration: underline;
 }
 
 #logindisplay a:hover
 {
-    color: white;
+    color: blue;
     text-decoration: none;
 }
 
@@ -431,10 +424,18 @@ div#title
 .text-box.multi-line
 {
     height: 6.5em;
-    font-family: 'Comic Sans MS';
+    font-family: 'comic Sans MS';
 }
 
 .tri-state
 {
     width: 6em;
 }
+
+.thumbnail{position: relative;z-index: 0;font:12px verdana;} 
+.thumbnail:hover{background-color: transparent;z-index: 50;} 
+.thumbnail span{position: absolute;background-color:#eaeaea;padding: 5px; 
+left: -1000px;border: 1px dashed #999;visibility: hidden; 
+color: black;text-decoration: none;} 
+.thumbnail span img{border-width: 0;padding: 2px;} 
+.thumbnail:hover span{visibility: visible;top: 0;left: 60px;}

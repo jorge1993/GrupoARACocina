@@ -7,7 +7,7 @@
 <asp:Content ID="loginContent" ContentPlaceHolderID="MainContent" runat="server">
     <h2>Log in</h2>
     <p>
-        Please write your user and password. <%= Html.ActionLink("Register", "Register")%> if you don't have an account.
+        Please write your user and password. <%= Html.ActionLink("Register", "SignIn")%> if you don't have an account.
     </p>
 
     <% using (Html.BeginForm()) { %>

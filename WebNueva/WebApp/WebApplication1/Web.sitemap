@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap>
+  <siteMapNode title="Home">
+    <siteMapNode title="Home" url="Index.aspx">
+
+
+    </siteMapNode>
+    <siteMapNode title="Recipes" url="Recipes.aspx">
+
+    </siteMapNode>
+    <siteMapNode title="Upload Recipe" url="Upload.aspx">
+
+    </siteMapNode>
+    <siteMapNode title="Store" url="Store.aspx">
+
+    </siteMapNode>
+    <siteMapNode title="Contact" url="Contact.aspx">
+
+      </siteMapNode>
+    <siteMapNode title="About us" url="About.aspx">
+
+    </siteMapNode>
+      
+    
+    </siteMapNode>
+</siteMap>

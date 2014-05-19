@@ -1,0 +1,30 @@
+C:\Documents and Settings\EPS\Escritorio\WebApp\WebApp\WebApplication1\bin\Content\fake1.jpg
+C:\Documents and Settings\EPS\Escritorio\WebApp\WebApp\WebApplication1\bin\WebApplication1.dll
+C:\Documents and Settings\EPS\Escritorio\WebApp\WebApp\WebApplication1\bin\WebApplication1.pdb
+C:\Documents and Settings\EPS\Escritorio\WebApp\WebApp\WebApplication1\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\EPS\Escritorio\WebApp\WebApp\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Documents and Settings\EPS\Escritorio\WebApp\WebApp\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\LUIS\Desktop\WebNueva\WebApp\WebApplication1\bin\Content\fake1.jpg
+C:\Users\LUIS\Desktop\WebNueva\WebApp\WebApplication1\bin\WebApplication1.dll
+C:\Users\LUIS\Desktop\WebNueva\WebApp\WebApplication1\bin\WebApplication1.pdb
+C:\Users\LUIS\Desktop\WebNueva\WebApp\WebApplication1\bin\prueba.dll
+C:\Users\LUIS\Desktop\WebNueva\WebApp\WebApplication1\bin\prueba.pdb
+C:\Users\LUIS\Desktop\WebNueva\WebApp\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+C:\Users\LUIS\Desktop\WebNueva\WebApp\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\LUIS\Desktop\WebNueva\WebApp\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\Alberto\Desktop\WebCocina\WebNueva\WebApp\WebApplication1\bin\Content\fake1.jpg
+C:\Users\Alberto\Desktop\WebCocina\WebNueva\WebApp\WebApplication1\bin\WebApplication1.dll
+C:\Users\Alberto\Desktop\WebCocina\WebNueva\WebApp\WebApplication1\bin\WebApplication1.pdb
+C:\Users\Alberto\Desktop\WebCocina\WebNueva\WebApp\WebApplication1\bin\prueba.dll
+C:\Users\Alberto\Desktop\WebCocina\WebNueva\WebApp\WebApplication1\bin\prueba.pdb
+C:\Users\Alberto\Desktop\WebCocina\WebNueva\WebApp\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Alberto\Desktop\WebCocina\WebNueva\WebApp\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\Alberto\Desktop\WebCocina\WebNueva\WebApp\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\Propietario\Desktop\WebNueva\WebApp\WebApplication1\bin\Content\fake1.jpg
+C:\Users\Propietario\Desktop\WebNueva\WebApp\WebApplication1\bin\WebApplication1.dll
+C:\Users\Propietario\Desktop\WebNueva\WebApp\WebApplication1\bin\WebApplication1.pdb
+C:\Users\Propietario\Desktop\WebNueva\WebApp\WebApplication1\bin\prueba.dll
+C:\Users\Propietario\Desktop\WebNueva\WebApp\WebApplication1\bin\prueba.pdb
+C:\Users\Propietario\Desktop\WebNueva\WebApp\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Propietario\Desktop\WebNueva\WebApp\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\Propietario\Desktop\WebNueva\WebApp\WebApplication1\obj\Debug\WebApplication1.pdb

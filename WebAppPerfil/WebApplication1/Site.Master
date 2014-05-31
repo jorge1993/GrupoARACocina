@@ -1,0 +1,118 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.Master.cs" Inherits="WebApplication1.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title><asp:ContentPlaceHolder ID="TitleContent" runat="server" /></title>
+    <link href="../../Content/Site.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="~/Content/ImagesFondo/icono.ico">
+    <style type="text/css">
+        .style1
+        {
+            margin-right: 0;
+        }
+        .style2
+        {
+            width: 161px;
+            height: 71px;
+        }
+        .style3
+        {
+            text-align: center;
+            font-size: medium;
+        }
+        #logindisplay
+        {
+            margin-left: 840px;
+        }
+    </style>
+</head>
+<body background="../../Content/ImagesFondo/fondogrisblanco.jpg" class="body">
+  <form id="form1" runat="server">
+ 
+    <div class="page" >
+        <div id="header">
+            <div id="title" class="style2" style="width: 150px; height: 60px">
+            </div>
+              
+            <div id="logindisplay">
+              
+                <% if (Session["login"] == null)
+                   {
+                        %>
+                 <asp:ImageButton ID="ImageButton1" runat="server" 
+                    ImageUrl="~/Content/ImagesFondo/login.png" PostBackUrl="~/LogOn.aspx" 
+                    Height="79px" Width="81px" />
+
+                  <asp:ImageButton ID="ImageButton2" runat="server"  
+                    ImageUrl="~/Content/ImagesFondo/register.png" PostBackUrl="~/Register.aspx" 
+                    Height="79px" Width="81px" />
+
+                 <% }
+                   else
+                   { 
+                 %>
+                 <asp:ImageButton ID="ImageButton3" runat="server"  
+                    ImageUrl="~/Content/ImagesFondo/logout.png" PostBackUrl="~/LogOn.aspx" 
+                    Height="79px" Width="81px" />
+
+                <asp:ImageButton ID="ImageButton4" runat="server"  
+                    ImageUrl="~/Content/user_big.png" PostBackUrl="~/Perfil.aspx" 
+                    Height="79px" Width="81px" />
+                 
+                 <% } %>
+                </div> 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h1 
+                class="style1" style="border-style: dashed">
+                &nbsp;</h1>
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
+            
+             
+             
+            
+            
+                
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+                 <a href="http://instagram.com/kitchendaily" target="_blank"><img alt="Siguenos en Blogger" src="https://lh3.googleusercontent.com/-D-erW-8vZFo/UIqE3H6oUuI/AAAAAAAABgE/4kh346Lwaxk/s48/instagram48.png" width=48 height=48  /></a>
+             <a href="http://twitter.com/kitchendaily" target="_blank"><img src="https://lh6.googleusercontent.com/-vao9pzZoGtk/T6VYC4d1YMI/AAAAAAAAA0U/4rdP2chJido/s48/twitter48.png" width=48 height=48 alt="Síguenos en Twitter" /></a>
+             <a href="http://www.facebook.com/kitchendaily" target="_blank"><img alt="Siguenos en Facebook" src="https://lh3.googleusercontent.com/-NSLbC_ztNls/T6VX0g6z8AI/AAAAAAAAA0A/_vyIBrmZbuY/s48/facebook48.png" width=48 height=48  /></a>
+             <a href="http://www.pinterest.com/kitchendailypin" target="_blank"><img alt="Siguenos en Pinterest" src="https://lh3.googleusercontent.com/-VL5WSnUKa9k/T73l-VAgt8I/AAAAAAAAA5k/EUxxhbV2P7s/s48/pinterest48.png" width=48 height=48  /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 
+             <a><embed style="" src="http://www.relojesflash.com/swf/clock117.swf"  wmode="transparent" type="application/x-shockwave-flash" height="60" width="60">
+            &nbsp;&nbsp;</a>&nbsp;
+              
+              <div style="margin-left: 700px">
+               <asp:Menu ID="Menu1" runat="server" BorderColor="#0000CC" DataSourceID="SiteMapDataSource1" 
+                MaximumDynamicDisplayLevels="0" onmenuitemclick="Menu1_MenuItemClick1" 
+                Orientation="Horizontal" Align="Right">
+                <StaticMenuItemStyle BorderColor="#0000CC" BorderStyle="Outset" 
+                    HorizontalPadding="10px" ItemSpacing="10px" VerticalPadding="10px" />
+                <StaticMenuStyle HorizontalPadding="10px" VerticalPadding="20px" />
+            </asp:Menu>
+            <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" 
+                ShowStartingNode="False" />
+                 </div>
+        </div>
+             
+        </div>
+
+        <div id="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+            <p class="style3">
+                <em>Copyright ©<br /> ARA Kitchen 2013-2014
+               <br />
+               All rights reserved</p>
+            <div id="footer">
+            </div>
+
+        </div>
+        
+                
+                 </form>  
+            
+</body>
+</html>
+
